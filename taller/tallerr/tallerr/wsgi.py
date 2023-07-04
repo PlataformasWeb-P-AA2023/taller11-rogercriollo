@@ -1,5 +1,5 @@
 """
-WSGI config for taller11 project.
+WSGI config for tallerr project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'taller11.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tallerr.settings')
 
 application = get_wsgi_application()
